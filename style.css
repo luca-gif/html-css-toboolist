@@ -52,12 +52,12 @@ button.button2{
 }
 
 .main.section{
-  height: 520px;
+  height: 600px;
   padding: 30px 50px;
 }
 
 h3{
-  padding: 10px 0;
+  padding-top: 10px;
 }
 
 h3::before{
@@ -95,4 +95,10 @@ h3::before{
   background-color: #f29c2f;
 }
 
+.colored.ocra{
+  background-color: #b0c926;
+}
 
+.colored.pink{
+  background-color: #d862a1;
+}
