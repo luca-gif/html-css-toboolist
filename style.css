@@ -25,6 +25,10 @@ header{
   vertical-align: middle;
 }
 
+.logo-title{
+  font-size: 40px;
+}
+
 /* Main */
 
 .main{
