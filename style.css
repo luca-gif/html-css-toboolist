@@ -68,8 +68,18 @@ h3::before{
   content: '\25BE';
 }
 
-.thingstodo::before{
-  content: '\2713  ';
+.thingstodo.yes::before{
+  content: '\2713   ';
+  color: green;
+  border: 2px solid green;
+  border-radius: 50%;
+}
+
+.thingstodo.nope::before{
+  content: '\2715   ';
+  color: red;
+  border: 2px solid red;
+  border-radius: 50%;
 }
 
 .thingstodo{
