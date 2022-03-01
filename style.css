@@ -68,11 +68,31 @@ h3::before{
   content: '\2713  ';
 }
 
+.thingstodo{
+  margin: 15px 0;
+}
+
 .colored{
   padding: 5px;
   border-radius: 10px;
-  background-color: #45abea;
   color: #ffffff;
   font-size: 10px;
 }
+
+.colored.blue{
+  background-color: #45abea;
+}
+
+.colored.purple{
+  background-color: #9c72e4;
+}
+
+.colored.green{
+  background-color: #64c0a9;
+}
+
+.colored.orange{
+  background-color: #f29c2f;
+}
+
 
