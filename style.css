@@ -14,6 +14,7 @@ body{
 header{
   background-color: white;
   padding: 20px 10px;
+  margin-bottom: 30px;
 }
 
 .logo-title {
@@ -25,3 +26,53 @@ header{
 }
 
 /* Main */
+
+.main{
+  background-color: white;
+  margin: auto;
+  width: 70%;
+  padding: 10px 50px;
+  border-bottom: 3px solid #f6f8f9
+}
+
+button{
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 10px;
+}
+
+button.button1{
+  color: #ffffff;
+  background-color: #47adf1;
+}
+
+button.button2{
+  color: #d6dade;
+  background-color: #ffffff;
+}
+
+.main.section{
+  height: 520px;
+  padding: 30px 50px;
+}
+
+h3{
+  padding: 10px 0;
+}
+
+h3::before{
+  content: '\25BE';
+}
+
+.thingstodo::before{
+  content: '\2713  ';
+}
+
+.colored{
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #45abea;
+  color: #ffffff;
+  font-size: 10px;
+}
+
