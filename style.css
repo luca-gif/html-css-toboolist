@@ -11,7 +11,17 @@ body{
 
 /* header */
 
-.container{
+header{
   background-color: white;
-
+  padding: 20px 10px;
 }
+
+.logo-title {
+  display: inline;
+}
+
+.logo, .logo-title {
+  vertical-align: middle;
+}
+
+/* Main */
